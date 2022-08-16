@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+    font-size: larger;
+    font-family: Georgia;   
+}
+h1{
+font-family: Georgia;
+font-size: larger;
+text-align: center;
+word-wrap:20cm;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    flex-flow: row-reverse;
+    justify-content:center;
+    padding: 100px; 
+}
+
+.comp{
+    display: flex;
+    gap: 30px;
+    row-gap: 30px;
+    justify-content: center;  
+}
